@@ -14,7 +14,7 @@ $(document).ready(function() {
     var userInput = $(this).siblings(".description").val().trim();
     var blockId = $(this).parent().attr("id");
   
-    localStorage.setitem(blockId, userInput);
+    localStorage.setItem(blockId, userInput);
   
 });
 
@@ -33,10 +33,16 @@ $(".time-block").each(function() {
 
   if (hour < currentHour) {
     $(this).addClass("past");
+    $(this).removeClass("present");
+    $(this).removeClass("future");
   } else if (hour === currentHour) {
     $(this).addClass("present");
+    $(this).removeClass("future");
+    $(this).removeClass("past");
   } else {
     $(this).addClass("future");
+    $(this).removeClass("present");
+    $(this).removeClass("past");
   }
 });
 

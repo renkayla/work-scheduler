@@ -7,7 +7,7 @@ This is a basic work  day scheduler that loops through the hours of 8am
 
 ## Installation
 
-https://renkayla.github.io/work-scheduler/
+![renkayla github io_work-scheduler_ (1)](https://user-images.githubusercontent.com/116777951/228029889-af813013-82aa-401b-bf76-25c07146b917.png)
 
 ## User Story 
 

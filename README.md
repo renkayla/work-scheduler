@@ -2,12 +2,12 @@
 
 
 ## Description
-This is a basic work  day scheduler that loops through the hours of 8am
+This is a basic work  day scheduler that loops through the hours of 8am and 6pm which is a regular work day. The past hours are colored in grey, the present in red, and the future in green. This app allows the user to save information locally in the browser. 
 
 
 ## Installation
 
-![renkayla github io_work-scheduler_ (1)](https://user-images.githubusercontent.com/116777951/228029889-af813013-82aa-401b-bf76-25c07146b917.png)
+https://renkayla.github.io/work-scheduler/
 
 ## User Story 
 
@@ -32,8 +32,10 @@ WHEN I refresh the page,
 THEN the saved events persist.
 
 ## Usage
-
-![renkayla github io_work-scheduler_](https://user-images.githubusercontent.com/116777951/228028623-066fe55a-55a8-46fc-afdf-9977cd9919dc.png)
+![renkayla github io_work-scheduler_ (2)](https://user-images.githubusercontent.com/116777951/228030196-00350a9c-b9ca-4f31-9db3-36173ed0dd63.png)
+moment.js
+day.js
+query.js
 
 ## Credits 
 

@@ -26,6 +26,19 @@ $(document).ready(function() {
   // current hour in 24-hour time?
   //
 
+  const currentHour = dayjs().hour();
+
+$(".time-block").each(function() {
+  const hour = parseInt($(this).attr("id").split("-")[1]);
+
+  if (hour < currentHour) {
+    $(this).addClass("past");
+  } else if (hour === currentHour) {
+    $(this).addClass("present");
+  } else {
+    $(this).addClass("future");
+  }
+});
 
 
   // TODO: Add code to get any user input that was saved in localStorage and set
